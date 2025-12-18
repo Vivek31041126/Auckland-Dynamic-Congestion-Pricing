@@ -1,0 +1,27 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+*.ipynb_checkpoints
+
+# Data (keep raw data OUT of git)
+data_raw/
+data_processed/
+
+# Models & heavy outputs
+models/
+results/
+
+# Logs
+*.log
+
+# SUMO outputs (often huge)
+sim/outputs/
