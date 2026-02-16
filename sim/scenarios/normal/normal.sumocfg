@@ -1,0 +1,13 @@
+<configuration>
+  <input>
+    <net-file value="../../network/auckland.net.xml"/>
+    <route-files value="../../routes/auckland.rou.xml"/>
+    <additional-files value="edgeData.add.xml"/>
+  </input>
+
+  <time>
+    <begin value="0"/>
+    <end value="172800"/>
+    <step-length value="1"/>
+  </time>
+</configuration>
