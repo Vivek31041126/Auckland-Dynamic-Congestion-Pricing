@@ -1,8 +1,3 @@
-<additional>
-  <edgeData id="edgeStats"
-            file="../../outputs/edge_data.xml"
-            freq="60"
-            begin="0"
-            end="172800"
-            excludeEmpty="false"/>
-</additional>
+version https://git-lfs.github.com/spec/v1
+oid sha256:a324e141fd00887eadea5623a8c3e2a03fdbc32c17dd034be1f02d3d0c192794
+size 213
