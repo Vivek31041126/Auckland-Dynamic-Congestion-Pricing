@@ -271,3 +271,33 @@ Project: Dynamic Congestion Pricing using AI (Auckland)
 - Feedback mechanism demonstrates systemic effectiveness of dynamic pricing
 
 
+## 2026-03-19
+**Task:** IoT communication layer implementation using MQTT
+ 
+**Actions:**
+-Installed and configured Mosquitto MQTT broker locally
+-Ran MQTT broker in VS Code terminal using verbose mode
+-Implemented MQTT publisher script to stream traffic travel-time data
+-Implemented MQTT subscriber script to receive real-time messages
+-Integrated processed dataset (travel_time_10min.csv) into publisher
+-Configured topic-based communication: traffic/auckland/corridor
+-Converted messages into structured JSON format
+-Simulated real-time streaming using time delay (1 second interval)
+
+**Issues resolved:**
+-Fixed missing file path error for dataset loading
+-Resolved column mismatch (corridor_travel_time_sec vs travel_time_sec)
+-Added dynamic column detection logic in publisher script
+-Verified correct data transmission between publisher and subscriber
+
+**Outcome::**
+-Successfully established real-time publish–subscribe communication
+-Traffic data streamed continuously from publisher to subscriber
+-Validated working IoT-style data pipeline for traffic monitoring
+
+**Significance:::**
+-Extends system from static simulation to real-time streaming architecture
+-Aligns with thesis objective of IoT-based smart transport system design
+-Provides foundation for database integration and performance evaluation
+
+

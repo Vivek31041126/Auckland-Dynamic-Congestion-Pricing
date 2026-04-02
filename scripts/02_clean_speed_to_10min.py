@@ -1,7 +1,7 @@
 from pathlib import Path
 import pandas as pd
 
-RAW_FILE = Path(""C:\Users\VIVEK\Documents\MSc_Thesis_Auckland_Congestion\data_raw\AT_API\traffic_counts\AT_traffic_counts_raw.csv.csv"")
+RAW_FILE = Path("data_raw/AT_API/traffic_counts/AT_traffic_counts_raw.csv.csv")
 OUT_DIR = Path("data_processed")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 

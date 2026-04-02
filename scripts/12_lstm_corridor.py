@@ -3,7 +3,6 @@ import numpy as np
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense
 from sklearn.metrics import mean_absolute_error, mean_squared_error
-import numpy as np
 
 DATA = np.load("data_processed/travel_time/corridor_lstm.npz")
 X = DATA["X"]

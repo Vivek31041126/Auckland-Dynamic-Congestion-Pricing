@@ -9,13 +9,14 @@ __pycache__/
 .venv/
 venv/
 env/
-
-# SUMO large outputs
-# sim/outputs/edge_data.xml
-# data_raw/
-# data_processed/
+sim/outputs/edge_data.xml
+data_raw/
+data_processed/
 results/pricing/
 results/final_pack/
+
+# SUMO large outputs
+
 
 # OS
 .DS_Store

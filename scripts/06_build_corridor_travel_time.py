@@ -30,7 +30,7 @@ corridor = (
 
 # STEP 4: handle missing bins (critical)
 corridor = corridor.interpolate(method="linear")
-corridor = corridor.fillna(method="bfill").fillna(method="ffill")
+corridor = corridor.bfill().ffill()
 
 corridor_df = corridor.reset_index()
 corridor_df.columns = ["time", "corridor_travel_time_sec"]
