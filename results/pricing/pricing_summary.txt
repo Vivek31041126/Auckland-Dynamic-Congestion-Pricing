@@ -1,0 +1,10 @@
+Dynamic Congestion Pricing Summary
+---------------------------------
+Total intervals: 286
+Tolled intervals: 199 (69.6%)
+
+Average toll (when applied): $2.66
+Total revenue proxy: $529.47
+
+Average peak toll: $1.54
+Average off-peak toll: $1.95

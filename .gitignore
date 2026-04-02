@@ -1,23 +1,32 @@
-# Python
+# Python caches
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.log
+*.py,cover
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
 
 # Virtual environments
 .venv/
 venv/
 env/
-sim/outputs/edge_data.xml
-data_raw/
-data_processed/
-results/pricing/
-results/final_pack/
 
-# SUMO large outputs
+# Local runtime files
+gradio_stdout.log
+gradio_stderr.log
+scripts/mqtt/status/*.json
 
+# Temporary office files
+~$*.docx
+~$*.pptx
+~$*.xlsx
 
-# OS
+# OS files
 .DS_Store
 Thumbs.db
+desktop.ini

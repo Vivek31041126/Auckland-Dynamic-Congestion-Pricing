@@ -1,0 +1,16 @@
+{
+  "component": "subscriber",
+  "state": "receiving",
+  "updated_at": "2026-03-24T01:27:13+00:00",
+  "message_count": 288,
+  "broker_host": "localhost",
+  "broker_port": 1883,
+  "topic": "traffic/auckland/corridor",
+  "last_message_time": "02-01-1970 23:50",
+  "last_payload": {
+    "time": "02-01-1970 23:50",
+    "travel_time": 2.65
+  },
+  "last_error": null,
+  "subscribed_topic": "traffic/auckland/corridor"
+}
