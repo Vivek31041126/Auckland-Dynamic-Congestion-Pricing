@@ -193,6 +193,40 @@ LSTM is used as a sequence model for corridor-level travel-time forecasting. It 
 
 These results indicate that ARIMA and LSTM achieved the strongest forecasting accuracy on the corridor series, while the dynamic pricing module produced measurable demand reduction and modest travel-time relief under the assumed elasticity and congestion feedback settings.
 
+## What I Built
+
+The project implements an end-to-end technical workflow:
+
+flowchart LR
+    A[SUMO Traffic Simulation]
+    --> B[Raw Edge Data]
+
+    B --> C[Python Data Processing]
+
+    C --> D[10-Minute Aggregation]
+
+    D --> E[Corridor Dataset]
+
+    E --> F[ARIMA]
+    E --> G[XGBoost]
+    E --> H[LSTM]
+
+    F --> I[Travel-Time Forecast]
+    G --> I
+    H --> I
+
+    I --> J[Dynamic Pricing Engine]
+
+    J --> K[Demand Response Model]
+
+    K --> L[Congestion Feedback]
+
+    L --> M[Gradio Dashboard]
+
+    L --> N[MQTT / IoT Streaming]
+
+The system covers the complete lifecycle from traffic generation and preprocessing through model development, pricing decisions, behavioural response modelling and user-facing analytics.
+
 ## Demo
 
 ### Gradio App
