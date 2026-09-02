@@ -41,15 +41,24 @@ An end-to-end research project that combines SUMO traffic simulation, ARIMA/XGBo
 Repository:
 [Auckland-Dynamic-Congestion-Pricing](https://github.com/Vivek31041126/Auckland-Dynamic-Congestion-Pricing)
 
-## Thesis Document
+## Final Thesis Document
 
-Read the written thesis and supporting materials here:
+Read the examiner-amended final thesis and supporting materials here:
 
-- [Thesis PDF](https://github.com/Vivek31041126/Auckland-Dynamic-Congestion-Pricing/blob/main/thesis/final_document/Auckland_Dynamic_Congestion_Pricing_Thesis.pdf)
-- [Final Thesis Word Document](https://github.com/Vivek31041126/Auckland-Dynamic-Congestion-Pricing/blob/main/thesis/final_document/Auckland_Dynamic_Congestion_Pricing_Thesis.docx)
+- [Final Thesis PDF](https://github.com/Vivek31041126/Auckland-Dynamic-Congestion-Pricing/blob/main/thesis/final_document/Updated_Thesis_Vivek.pdf)
+- [Revised Thesis Word Document](https://github.com/Vivek31041126/Auckland-Dynamic-Congestion-Pricing/blob/main/thesis/final_document/Auckland_Dynamic_Congestion_Pricing_Thesis_methodology_fixed.docx)
 - [Presentation Slides](https://github.com/Vivek31041126/Auckland-Dynamic-Congestion-Pricing/blob/main/thesis/final_document/Auckland_Dynamic_Congestion_Pricing_Presentation.pptx)
+- [Thesis Amendment Response Table](https://github.com/Vivek31041126/Auckland-Dynamic-Congestion-Pricing/blob/main/thesis/final_document/Thesis_Amendment_Response_Table.docx)
 
 This research develops a data-driven congestion pricing workflow for Auckland that links SUMO simulation, time-series forecasting, dynamic toll design, demand response modelling, and congestion feedback analysis into one decision-support pipeline.
+
+## Gradio Dashboard Preview
+
+![Auckland Congestion Pricing Dashboard](https://raw.githubusercontent.com/Vivek31041126/Auckland-Dynamic-Congestion-Pricing/main/docs/screenshots/Auckland_Congestion_Pricing_Dashboard.png)
+
+![Scenario Explorer](https://raw.githubusercontent.com/Vivek31041126/Auckland-Dynamic-Congestion-Pricing/main/docs/screenshots/Scenario_Explorer_Dashboard.png)
+
+![MQTT Demo](https://raw.githubusercontent.com/Vivek31041126/Auckland-Dynamic-Congestion-Pricing/main/docs/screenshots/Mqtt_Demo_Dashboard.png)
 
 ## GitHub Overview
 
